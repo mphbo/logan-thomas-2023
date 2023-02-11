@@ -1,0 +1,30 @@
+$primaryColor: #20ee80;
+$primaryColor2: #20ee8015;
+$background: #070e1b;
+
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.paragraph {
+    color: $primaryColor;
+    margin-top: 80px;
+}
+
+.headingContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heading {
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.header {
+    margin: 20px;
+}

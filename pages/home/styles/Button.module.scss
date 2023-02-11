@@ -1,0 +1,30 @@
+$primaryColor: #20ee80;
+$primaryColor2: #20ee8015;
+$background: #070e1b;
+.button {
+    background: $primaryColor2;
+    color: $primaryColor;
+    border: 1.8px solid $primaryColor;
+    padding: 12px 0px;
+    width: 160px;
+    // font-family: 'Courier New', Courier, monospace;
+    // height: 35px;
+    // width: 100px;
+    &:hover {
+        background: $primaryColor;
+        color: $background;
+    }
+}
+
+.activeButton {
+    background: $primaryColor;
+    color: $background;
+    border: 1.8px solid $primaryColor;
+    padding: 12px 0px;
+    width: 160px;
+    // font-family: 'Courier New', Courier, monospace;
+    // height: 35px;
+    // width: 100px;
+    &:hover {
+    }
+}
