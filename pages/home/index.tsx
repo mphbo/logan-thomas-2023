@@ -3,8 +3,41 @@ import Image from "next/image";
 import styles from "./styles/Home.module.scss";
 import Button from "./components/Button";
 import Projects from "./components/Projects";
+import Typewriter from "typewriter-effect";
 
 export default function Home() {
+  const openResume = () => {
+    window
+      .open(
+        "https://www.canva.com/design/DAEhZ8vjuBc/EUMbAoelpyf8er338asyYw/view?utm_content=DAEhZ8vjuBc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+        "_blank"
+      )
+      ?.focus();
+  };
+
+  const typewriter = (typewriter: any) => {
+    typewriter
+      .typeString("Web")
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString("React")
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString("Full Stack")
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString("JavaScript")
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString("TypeScript")
+      .pauseFor(1000)
+      .deleteAll()
+      .typeString("NextJS")
+      .pauseFor(1000)
+      .deleteAll()
+      .start();
+  };
+
   return (
     <div style={{ position: "relative", top: 0, left: 0 }}>
       <Head>
@@ -31,7 +64,13 @@ export default function Home() {
           <p className={styles.heading}>Logan Thomas</p>
         </div>
         <div>
-          <p className={styles.paragraph}>Full-stack Developer</p>
+          <div className={styles.paragraph}>
+            <Typewriter
+              options={{ autoStart: true, loop: true }}
+              onInit={typewriter}
+            />
+            Developer
+          </div>
         </div>
       </main>
       <footer></footer>
@@ -39,9 +78,13 @@ export default function Home() {
       <div className={styles.line2}></div>
       <div className={styles.line3}></div>
       {/* <div className={styles.arrow}>&darr;</div> */}
-      <button className={styles.downloadResume}>Download Resume</button>
+      <button className={styles.downloadResume} onClick={openResume}>
+        Open Resume
+      </button>
       <div className={styles.line4}></div>
-      {/* <Projects /> */}
+      <div className={styles.line5}></div>
+      <div className={styles.line6}></div>
+      <Projects />
     </div>
   );
 }

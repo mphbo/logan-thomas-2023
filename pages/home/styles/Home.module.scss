@@ -44,7 +44,6 @@ $background: #070e1b;
 
 .line2 {
     position: absolute;
-    border-right: solid 2px $primaryColor;
     border-bottom: solid 2px $primaryColor;
     width: 30px;
     top: 280px;
@@ -54,8 +53,7 @@ $background: #070e1b;
 .line3 {
     position: absolute;
     border-right: solid 2px $primaryColor;
-    border-bottom: solid 2px $primaryColor;
-    height: 30px;
+    height: 40px;
     top: 480px;
     left: 120px;
 }
@@ -63,10 +61,28 @@ $background: #070e1b;
 .line4 {
     position: absolute;
     border-right: solid 2px $primaryColor;
-    border-bottom: solid 2px $primaryColor;
-    height: 30px;
+    height: 120px;
     top: 690px;
     left: 120px;
+}
+
+.line5 {
+    position: absolute;
+    border-top: solid 2px $primaryColor;
+    border-right: solid 2px $primaryColor;
+    height: 130px;
+    width: 180px;
+    top: 810px;
+    left: 120px;
+}
+
+.line6 {
+    position: absolute;
+    border-top: solid 2px $primaryColor;
+    height: 120px;
+    width: 40px;
+    top: 940px;
+    left: 260px;
 }
 
 .arrow {
@@ -81,7 +97,7 @@ $background: #070e1b;
     margin-left: 55px;
     margin-top: 120px;
     border: solid 1px $primaryColor;
-    background:$background;
+    background: $primaryColor2;
     color: $primaryColor;
     height: 130px;
     width: 130px;
