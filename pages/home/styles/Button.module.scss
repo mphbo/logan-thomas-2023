@@ -6,10 +6,7 @@ $background: #070e1b;
     color: $primaryColor;
     border: 1.8px solid $primaryColor;
     padding: 12px 0px;
-    width: 160px;
-    // font-family: 'Courier New', Courier, monospace;
-    // height: 35px;
-    // width: 100px;
+    width: 150px;
     &:hover {
         background: $primaryColor;
         color: $background;
@@ -21,10 +18,5 @@ $background: #070e1b;
     color: $background;
     border: 1.8px solid $primaryColor;
     padding: 12px 0px;
-    width: 160px;
-    // font-family: 'Courier New', Courier, monospace;
-    // height: 35px;
-    // width: 100px;
-    &:hover {
-    }
+    width: 150px;
 }
