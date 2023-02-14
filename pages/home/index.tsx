@@ -21,14 +21,18 @@ export default function Home() {
           <Button label="<Projects />" />
           <Button label="<Skills />" />
         </div>
+      </header>
+      <main className={styles.main}>
         <div>
           <p className={styles.paragraph}>This is</p>
         </div>
         <div className={styles.headingContainer}>
           <p className={styles.heading}>Logan Thomas</p>
         </div>
-      </header>
-      <main className={styles.main}></main>
+        <div>
+          <p className={styles.paragraph}>Full-stack Developer</p>
+        </div>
+      </main>
       <footer></footer>
     </>
   );
