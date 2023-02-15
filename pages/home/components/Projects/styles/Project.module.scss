@@ -1,0 +1,27 @@
+$primaryColor: #20ee80;
+$primaryColor2: #20ee8015;
+$background: #070e1b;
+
+.project {
+    height: 40px;
+    padding: 20px 30px;
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    // background: $primaryColor2;
+    border-bottom: solid 0.5px $primaryColor;
+    border-top: solid 0.5px $primaryColor;
+    &:hover {
+        background: $primaryColor;
+        color: $background;
+    }
+    p {
+        margin: 0;
+    }
+    .date {
+        font-size: 18px;
+        margin-top: 2px;
+    }
+}

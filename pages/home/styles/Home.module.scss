@@ -26,6 +26,8 @@ $background: #070e1b;
     font-size: 60px;
     color: white;
     margin: 0;
+    height: 150px;
+    width: 300px;
 }
 
 .header {
@@ -34,68 +36,41 @@ $background: #070e1b;
 
 .line {
     position: absolute;
-    border-right: solid 2px $primaryColor;
     border-bottom: solid 2px $primaryColor;
-    height: 200px;
-    width: 150px;
+    width: 8%;
     top: 280px;
-    left: 120px;
+    left: 75%;
 }
 
 .line2 {
     position: absolute;
-    border-bottom: solid 2px $primaryColor;
-    width: 30px;
+    border-left: solid 2px $primaryColor;
+    height: 195px;
     top: 280px;
-    left: 240px;
+    left: 83%;
+}
+
+.line7 {
+    position: absolute;
+    border-bottom: solid 2px $primaryColor;
+    border-right: solid 2px $primaryColor;
+    width: 47%;
+    top: 473px;
+    left: 35.5%;
 }
 
 .line3 {
     position: absolute;
     border-right: solid 2px $primaryColor;
     height: 40px;
-    top: 480px;
-    left: 120px;
-}
-
-.line4 {
-    position: absolute;
-    border-right: solid 2px $primaryColor;
-    height: 120px;
-    top: 690px;
-    left: 120px;
-}
-
-.line5 {
-    position: absolute;
-    border-top: solid 2px $primaryColor;
-    border-right: solid 2px $primaryColor;
-    height: 130px;
-    width: 180px;
-    top: 810px;
-    left: 120px;
-}
-
-.line6 {
-    position: absolute;
-    border-top: solid 2px $primaryColor;
-    height: 120px;
-    width: 40px;
-    top: 940px;
-    left: 260px;
-}
-
-.arrow {
-    color: $primaryColor;
-    position: absolute;
-    top: 500px;
-    left: 109px;
-    font-size: 25px;
+    top: 473px;
+    left: 35.5%;
 }
 
 .downloadResume {
-    margin-left: 55px;
+    margin-left: 35%;
     margin-top: 120px;
+    transform: translate(-62px);
     border: solid 1px $primaryColor;
     background: $primaryColor2;
     color: $primaryColor;
@@ -107,4 +82,39 @@ $background: #070e1b;
         background: $primaryColor;
         color: $background;
     }
+}
+
+.line4 {
+    position: absolute;
+    border-right: solid 2px $primaryColor;
+    height: 130px;
+    top: 710px;
+    left: 35.5%;
+}
+
+.line5 {
+    position: absolute;
+    border-top: solid 2px $primaryColor;
+    border-right: solid 2px $primaryColor;
+    height: 110px;
+    width: 42%;
+    top: 840px;
+    left: 35.5%;
+}
+
+.line6 {
+    position: absolute;
+    border-top: solid 2px $primaryColor;
+    height: 120px;
+    width: 8.5%;
+    top: 950px;
+    left: 69%;
+}
+
+.arrow {
+    color: $primaryColor;
+    position: absolute;
+    top: 500px;
+    left: 109px;
+    font-size: 25px;
 }
